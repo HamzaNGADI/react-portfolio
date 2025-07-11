@@ -67,7 +67,7 @@ function Navbar() {
             </svg>
 
             <div className="hidden md:flex gap-5 items-center border border-white bg-white rounded-3xl px-7 py-2 mr-2">
-                 <Link to="/"  className="text-blue-950 font-semibold hover:underline">Présentation</Link> |
+                 <Link to="/" className="text-blue-950 font-semibold hover:underline">Présentation</Link> |
                  <Link to="/ExpFormations" className="text-blue-950 font-semibold hover:underline">Expériences & formations</Link> |
                  <Link to="/Projectspub" className="text-blue-950 font-semibold hover:underline">Publications & projets</Link>
             </div>
@@ -78,9 +78,9 @@ function Navbar() {
         <div className='md:hidden block'>
             <div className="w-full h-px bg-white opacity-50"></div>
             
-              <Link to="/" className='mt-5 block'><span className='mx-1 px-2 py-1 text-white font-semibold rounded hover:bg-white hover:text-blue-950'> Présentations </span></Link> 
-              <Link to="/ExpFormations" className='mt-3 block'><span className='mx-1 px-2 py-1 text-white font-semibold rounded hover:bg-white hover:text-blue-950'> Expériences & formations </span></Link> 
-              <Link to="/Projectspub" className='block mt-3 md:mt-0'> <span className='mx-1 px-2 py-1 text-white font-semibold rounded hover:bg-white hover:text-blue-950'> Publications & projets </span></Link>
+              <Link to="/" onClick={() => setToogle(false)} className='mt-5 block'><span className='mx-1 px-2 py-1 text-white font-semibold rounded hover:bg-white hover:text-blue-950'> Présentations </span></Link> 
+              <Link to="/ExpFormations" onClick={() => setToogle(false)} className='mt-3 block'><span className='mx-1 px-2 py-1 text-white font-semibold rounded hover:bg-white hover:text-blue-950'> Expériences & formations </span></Link> 
+              <Link to="/Projectspub" onClick={() => setToogle(false)} className='block mt-3 md:mt-0'> <span className='mx-1 px-2 py-1 text-white font-semibold rounded hover:bg-white hover:text-blue-950'> Publications & projets </span></Link>
             
         </div>
           : <></>

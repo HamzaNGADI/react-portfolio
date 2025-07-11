@@ -29,8 +29,8 @@ function TimelineFE({timelineData}: timelineProps) {
             {/* Contenu à droite */}
             <motion.div
             ref={ref}
-            initial={{ opacity: 0, x: 80 }}
-            animate={inView ? { opacity: 1, x: 0 } : {}}
+            initial={{ opacity: 0 }}
+            animate={inView ? { opacity: 1 } : {}}
             transition={{ duration: 0.8, ease: "easeInOut" }}
             >
               <h2 className="text-lg text-gray-600 font-medium">{timelineData.period}</h2>

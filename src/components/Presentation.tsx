@@ -18,8 +18,8 @@ function Presentation() {
 
     <motion.div 
     ref={ref1}
-    initial={{ opacity: 0, x: 100 }}
-    animate={inView1 ? { opacity: 1, x: 0 } : {}}
+    initial={{ opacity: 0 }}
+    animate={inView1 ? { opacity: 1 } : {}}
     transition={{ duration: 0.8, ease: "easeInOut" }}
     
     className="bg-gradient-to-b from-blue-950 to-blue-800 text-white rounded-xl shadow-lg w-11/12 md:w-4/5 lg:w-3/5 p-8">
@@ -37,8 +37,8 @@ function Presentation() {
 
     <motion.div 
     ref={ref2}
-    initial={{ opacity: 0, x: -100 }}
-    animate={inView2 ? { opacity: 1, x: 0 } : {}}
+    initial={{ opacity: 0 }}
+    animate={inView2 ? { opacity: 1 } : {}}
     transition={{ duration: 0.8, ease: "easeInOut" }}
     
     className="w-11/12 md:w-4/5 lg:w-3/5 text-center">
