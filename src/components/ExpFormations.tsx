@@ -319,8 +319,8 @@ const techLangs: techLang[] = [
 
        <div className=" flex flex-col justify-center lg:flex-row lg:justify-between items-start">
            
-                <div className=" max-w-screen-xl max-w mx-auto my-12 pl-3">
-                <h5 className="text-gray-800 ml-2 text-2xl text-left font-serif font-extrabold py-8 pb-1 px-2 mt-10">Formations & diplômes</h5>
+                <div className=" max-w-screen-xl max-w mx-auto my-6 pl-3">
+                <h5 className="text-gray-800 ml-2 text-2xl text-left font-serif font-extrabold py-8 pb-1 px-2 mt-1">Formations & diplômes</h5>
  
               <div className="relative border-l-4 border-blue-600 ml-2">
                 {timelineStudies.map((item, index) => (
@@ -330,8 +330,8 @@ const techLangs: techLang[] = [
             </div>
                 
    
-            <div className=" max-w-screen-xl max-w mx-auto my-12 pl-3">
-            <h5 className="text-gray-800 ml-2 text-2xl text-left font-serif font-extrabold py-8 pb-1 px-2 mt-10">Expériences professionnelles</h5>
+            <div className=" max-w-screen-xl max-w mx-auto my-6 pl-3">
+            <h5 className="text-gray-800 ml-2 text-2xl text-left font-serif font-extrabold py-8 pb-1 px-2 mt-1">Expériences professionnelles</h5>
 
               <div className="relative border-l-4 border-blue-600 ml-2">
                 {timelineEXP.map((item, index) => (
