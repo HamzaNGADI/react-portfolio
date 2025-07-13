@@ -49,7 +49,7 @@ function Presentation() {
       Les projets développés au cours de mon cursus universitaire, varient entre des programmes desktop, des modèles IA et de réseaux de neurones, des sites web dynamiques, ainsi que des prototypes de jeux et simulations dans un environnement virtuel. <br />
 Ces projets sont développés avec divers langages de programmation, frameworks, APIs et bibliothèques qui les distinguent, ciblant plus d’autonomie en apprentissage des nouvelles technologies.  <br />
 
-l'onglet "Publications & projets" regroupe une sélection des projets développés ainsi que les publications scientifiques pertinentes, produites lors de ma thèse de doctorat.<br />
+L'onglet "Publications & projets" regroupe une sélection des projets développés ainsi que les publications scientifiques pertinentes, produites lors de ma thèse de doctorat.<br />
               </p>
     </motion.div>
 
