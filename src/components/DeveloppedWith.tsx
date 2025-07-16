@@ -15,6 +15,7 @@ const devWith : Record<string, string | JSX.Element > =
     "devicon-tailwindcss-original colored text-7xl" : "Tailwind CSS",
     "devicon-git-plain colored text-7xl" :"Git",
     "devicon-devicon-plain colored text-7xl" :"Devicon",
+    "devicon-swiper-original colored text-7xl" :"Swiper",
     "devicon-framermotion-original colored text-7xl" :(
       <>Motion<br />(Framer Motion)</>),
 
