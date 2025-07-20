@@ -60,7 +60,7 @@ function Navbar() {
           transition={{ duration: 0.5, ease: "easeInOut" }}
       >
          <div className='flex justify-between items-center'>
-            <div className='text-white mx-5'> H.NGADI Portfolio</div>
+            <div className='text-white mx-2 md:mx-5'> H.NGADI Portfolio</div>
             <svg className="md:hidden cursor-pointer h-8 w-8 fill-current text-white" viewBox="0 0 24 24" onClick={handleToggle}>
               {toogle ? <path fill-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"/> : <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>}
             
