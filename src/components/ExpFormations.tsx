@@ -301,6 +301,11 @@ const techLangs: techLang[] = [
     percentage: 85,
   },
   {
+    logo: "devicon-graphql-plain colored text-7xl",
+    langage: "GraphQL",
+    percentage: 65,
+  },
+  {
     logo: "devicon-spring-plain colored text-7xl",
     langage: "Spring Boot",
     percentage: 75,
